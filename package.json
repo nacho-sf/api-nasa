@@ -1,0 +1,29 @@
+{
+  "name": "api-nasa",
+  "version": "1.0.0",
+  "description": "Proyecto Api NASA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho-sf/api-nasa.git"
+  },
+  "author": "Nacho-SF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho-sf/api-nasa/issues"
+  },
+  "homepage": "https://github.com/nacho-sf/api-nasa#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
